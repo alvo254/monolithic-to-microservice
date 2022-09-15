@@ -38,7 +38,7 @@ jobs:
 
             echo " ------- login in to hub--------"
 
-            echo "$DOCKERPASS"
+            echo $DOCKERPASS
 
             docker login -u alvin254 -p $DOCKERPASS
 
